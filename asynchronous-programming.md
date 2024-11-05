@@ -8,8 +8,8 @@
 https://eloquentjavascript.net/11_async.html
 
 > An asynchronous model allows multiple things to happen at the same time.
-> callback: async functions that need to wait for something take an extra argument
-> promises: asynch functions that return an object that represents its (future) result instead of passing around callback functions.
+> - callback: async functions that need to wait for something take an extra argument
+> - promises: asynch functions that return an object that represents its (future) result instead of passing around callback functions.
 https://eloquentjavascript.net/11_async.html
 
 > A promise is a receipt representing a value that may not be available yet.
