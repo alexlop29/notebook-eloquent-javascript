@@ -2,9 +2,9 @@
 
 > In a synchronous programming model, things happen one at a time.
 > - ...Drawback: the second request will be started only when the first has finished. The total time taken will be at least the sum of the two response times.
-> The solution to this problem, in a synchronous system, is to start additional threads of control.
-> A second thread could start the second request, and then both threads wait for their results to come back, after which they resynchronize to combine their results.
-> Both prominent JavaScript programming platforms—browsers and Node.js—make operations that might take a while asynchronous, rather than relying on threads.
+> - The solution to this problem, in a synchronous system, is to start additional threads of control.
+> - A second thread could start the second request, and then both threads wait for their results to come back, after which they resynchronize to combine their results.
+> - Both prominent JavaScript programming platforms—browsers and Node.js—make operations that might take a while asynchronous, rather than relying on threads.
 https://eloquentjavascript.net/11_async.html
 
 > An asynchronous model allows multiple things to happen at the same time.
